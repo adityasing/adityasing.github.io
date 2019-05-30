@@ -9,7 +9,15 @@ body {
   padding-top: 54px;
   color: #868e96;
 }
-
+.bodytest {
+  background: gray url(https://subtlepatterns.com/patterns/geometry2.png) repeat 0 0;
+  width: 100%;
+  -webkit-animation: slide 20s linear infinite;
+}
+@-webkit-keyframes slide {
+    from { background-position: 0 0; }
+    to { background-position: -400px 0; }
+}
 @media (min-width: 992px) {
   body {
     padding-top: 0;
